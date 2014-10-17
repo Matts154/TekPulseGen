@@ -94,6 +94,8 @@ void exportTime(queue<Pulse> &q){
 
         q.pop();
     }
+    
+    file.close();
 }
 
 /**
